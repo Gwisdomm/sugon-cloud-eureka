@@ -25,6 +25,7 @@ public class ThreadPoolTest {
         //两者配合使用关闭线程池
         executorService.shutdown();
         executorService.awaitTermination(1, TimeUnit.DAYS);
+        System.out.println("test git");
         System.out.println("时间" + (System.currentTimeMillis() - start));
     }
 }
