@@ -1,0 +1,14 @@
+server:
+  port: 80
+
+Spring:
+  application:
+    #微服务名称 此处的名称即为注册发现中心的名称
+    name: cloud-consumer-order
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka

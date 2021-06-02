@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-nginx-test6001" />
+        <module name="cloud-nginx-test6002" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-practice-testhttp" />
+        <module name="cloud-api-commons" />
+        <module name="eshell" />
+        <module name="cloud-parctice-httpconnection" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-practice-java" />
+        <module name="cloud-eureka-provider8002" />
+        <module name="cloud-eureka-provider8001" />
+        <module name="cloud-consumer-order80" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eshell" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
